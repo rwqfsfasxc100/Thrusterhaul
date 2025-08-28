@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ships/Cothon-Lnd.tscn" type="PackedScene" id=1]
+
+[node name="Cothon-Lnd" instance=ExtResource( 1 )]
+
+[node name="engine-main" parent="." index="9"]
+type = "propulsion.mainbc"
+
+[node name="engine-main-left" parent="." index="10"]
+type = "propulsion.mainbl"
+
+[node name="engine-main-right" parent="." index="11"]
+type = "propulsion.mainbr"
+
+[node name="thruster-bl" parent="." index="12"]
+type = "propulsion.rcsdl"
+
+[node name="thruster-br" parent="." index="13"]
+type = "propulsion.rcsdr"
+
+[node name="thruster-tr" parent="." index="14"]
+type = "propulsion.rcsur"
+
+[node name="thruster-tl" parent="." index="15"]
+type = "propulsion.rcsul"
+
+[editable path="CargoBaffles"]
+[editable path="MineralProcessingUnit_DRY"]
+[editable path="weapon-left"]
+[editable path="weapon-right"]
+[editable path="weapon-left-back"]
+[editable path="weapon-right-back"]
+[editable path="AI"]

@@ -1,0 +1,25 @@
+==RCS==
+
+top left = propulsion.rcs.tl
+top right = propulsion.rcs.tr
+bottom left = propulsion.rcs.bl
+bottom right = propulsion.rcs.br
+left top = propulsion.rcs.ul
+left center = propulsion.rcs.cl
+left rear = propulsion.rcs.dl
+right top = propulsion.rcs.ur
+right center = propulsion.rcs.cr
+right rear = propulsion.rcs.dr
+bottom = propulsion.rcs.bb
+
+==TORCH==
+
+back left = propulsion.main.bl
+back center = propulsion.main.bc
+back right = propulsion.main.br
+left top = propulsion.main.lf
+left center = propulsion.main.lc
+left rear = propulsion.main.lr
+right top = propulsion.main.rf
+right center = propulsion.main.rc
+right rear = propulsion.main.rr

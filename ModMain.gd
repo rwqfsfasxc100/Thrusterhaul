@@ -26,7 +26,7 @@ func _init(modLoader = ModLoader):
 	
 	
 	loadDLC() # preloads DLC as things may break if this isn't done
-#	replaceScene("enceladus/Upgrades.tscn")
+	# replaceScene("enceladus/Upgrades.tscn")
 
 
 	replaceScene("ships/RA-TRTL-T.tscn")
